@@ -14,3 +14,9 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
+  rabbitmq:
+    host: RABBIT-SERVER
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
